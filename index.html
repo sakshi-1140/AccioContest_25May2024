@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Signup Form</title>
+</head>
+<body>
+    <form id="signupForm">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Example@email.com">
+        <span id="emailError" class="error"></span>
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Your Password" >
+        <span id="passwordError" class="error"></span>
+        <br>
+
+        <span id="successMessage" class="success"></span>
+        <br>
+        <button id="submit" type="submit"> Submit</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

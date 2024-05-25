@@ -1,0 +1,15 @@
+input,label,button{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.error{
+    color: red;
+    ;
+
+}
+
+.success{
+    color: green;
+}
